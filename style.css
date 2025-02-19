@@ -27,3 +27,55 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+#jordans-1, #jordans-2{
+    height: 400px;
+    width: 600px;
+}
+
+#jordans-1 {
+    box-shadow: 5px 0px 0px 0px blue;
+}
+
+#jordans-2 {
+    box-shadow: -5px 0px 0px 0px red;
+}
+
+body {
+    background-image: url("Converse\ Background.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    color: rgb(109, 0, 251);
+    text-decoration: underline;
+    text-align: center;
+    background-color: gray;
+    background-size: auto;
+    border-radius: 3rem;
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(116, 201, 241), rgb(251, 64, 64));
+}
+
+#row1-section2 {
+    background-color: rgb(116, 201, 241);
+    color: white;
+    border-radius: .5em;
+    width: 600px;
+    font-size: auto;
+}
+
+#row2-section2 {
+    background-color: rgb(251, 64, 64);
+    color: white;
+    border-radius: .5em;
+    width: 600px;
+    font-size: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
